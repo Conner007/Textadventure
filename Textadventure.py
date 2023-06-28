@@ -1,3 +1,13 @@
+class player():
+    hp = 0
+    ad = 0
+    invntory = []
+
+    def __init__(self, hp, ad, invntory):
+        self.hp = hp 
+        self.ad = ad 
+        self.invntory = invntory
+
 print("Spiel starten")
 
 menu_chose = input(">")
