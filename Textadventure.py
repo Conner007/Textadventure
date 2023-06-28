@@ -8,11 +8,14 @@ class player():
         self.ad = ad 
         self.invntory = invntory
 
-print("Spiel starten")
+start = True
 
-menu_chose = input(">")
+while start:
+    print("Spiel starten")
 
-if menu_chose == "Spiel starten":
-    pass 
-else:
-    print("Menüpunkt exestiert nicht.")
+    menu_chose = input(">")
+
+    if menu_chose == "Spiel starten":
+        pass 
+    else:
+        print("Menüpunkt exestiert nicht.")
